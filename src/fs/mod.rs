@@ -15,6 +15,7 @@ pub use file::File;
 
 mod open_options;
 pub use open_options::OpenOptions;
+pub use open_options::OpenOptionsIoUringExt;
 
 mod statx;
 pub use statx::is_dir_regfile;
